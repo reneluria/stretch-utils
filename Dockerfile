@@ -16,6 +16,8 @@ RUN apt-get update && \
         vim \
         netbase \
         git \
-        jq
+        jq && \
+    rm -rf /var/lib/apt/lists/* && \
+    apt-get clean
 
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1

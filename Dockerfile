@@ -9,9 +9,11 @@ RUN apt-get update && \
         mtr-tiny \
         netcat \
         openssh-client \
+        procps \
         python3-minimal \
         python3-pip \
         rsync \
+        telnet \
         traceroute \
         vim \
         netbase \
